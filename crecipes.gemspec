@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Crecipes::VERSION
 
-  gem.add_runtime_dependency "capistrano"
+#  gem.add_runtime_dependency "capistrano"
   gem.add_runtime_dependency "resque"
   gem.add_runtime_dependency "resque-scheduler"
   
